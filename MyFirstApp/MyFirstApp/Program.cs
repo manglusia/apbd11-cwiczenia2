@@ -17,3 +17,15 @@ static double GetAverage(int[]tab)
 int[]arr = {1,2,3,4,5};
 double average = GetAverage(arr);
 Console.WriteLine(average);
+
+static double GetMax(int[]arr)
+{
+    int maxValue = arr[0];
+    for (int i = 1; i < arr.Length; i++)
+    {
+        if (maxValue < tab[i])
+        {
+            maxValue = tab[i];
+        }
+    }
+}
