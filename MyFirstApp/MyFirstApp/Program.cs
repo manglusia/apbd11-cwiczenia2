@@ -8,7 +8,7 @@ static double GetAverage(int[]tab)
     double sum = 0;
     for (int i = 0; i < tab.Length; i++)
     {
-        sum += tab[i]*3;
+        sum += tab[i]*2;
     }
 
     return sum / tab.Length;
